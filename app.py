@@ -53,5 +53,5 @@ def video_feed():
 
 if __name__ == "__main__":
     #app.jinja_env.auto_reload=True
-    app.run(host="192.168.0.106",debug=True)
+    app.run(host="0.0.0.0",debug=True)
     
